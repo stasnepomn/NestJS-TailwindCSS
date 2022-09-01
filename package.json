@@ -1,10 +1,13 @@
 {
-  "name": "whatcha",
+  "name": "nestjs-tailwindcss",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": {
+    "name": "Stanislav Nepomniashchikh",
+    "email": "me@stasn.me"
+  },
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "tailwind:build": "postcss tailwind.css -o public/styles/style.css",
